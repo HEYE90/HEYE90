@@ -1,0 +1,129 @@
+[
+  {
+    "id": 0,
+    "flowerName": "Beyaz Spatifilyum",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/bt119-1/L/bt119-1-8d82317219e0916-569d4a9b.jpg"
+  },
+  {
+    "id": 20,
+    "flowerName": "Happy Box",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat172-1/L/vbat172-1-8d85cbcbd2af3ed-810f8b6a.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 1,
+    "flowerName": "Spatifilium Bitkisi",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at3873-1/L/at3873-1-8d8d1c41c45f47c-4a77bdf9.jpg"
+  },
+
+  {
+    "id": 3,
+    "flowerName": "Pembe Seramikte Dalmaçyal",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/kcm67192598-1/L/pembe-seramikte-mor-benekli-2-dal-midi-orkide-tasarimi-kcm67192598-1-b6fd32f3b7fc4ebd84e29d8ad6c937e2.jpg"
+  },
+  {
+    "id": 4,
+    "flowerName": "İkili Dracena Marginata",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at962-1/L/ikili-dracena-marginata-at962-1-6.jpg"
+  },
+  {
+    "id": 18,
+    "flowerName": "Shades of Autumn",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat215-1/L/vbat215-1-8d887ec7cf892bc-fb55440c.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 5,
+    "flowerName": "Orkide Çiçeği",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at3739-1/L/at3739-1-8d8d1c28142e602-10857146.jpg"
+  },
+  {
+    "id": 6,
+    "flowerName": "Turuncu Kalanchoeler",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at4519-1/L/at4519-1-8d92ccf8f8c193c-f6dce5e1.jpg"
+  },
+  {
+    "id": 8,
+    "flowerName": "Kraton Bitkisi",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at963-1/L/at963-1-8d8231e1770abb7-3fa59fa7.jpg"
+  },
+  {
+    "id": 9,
+    "flowerName": "Kalanchoe",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at4225-1/L/geometrik-siyah-saksida-kalanchoe-at4225-1-505b44074fb84b6cb4e72c50fb016eaa.jpg"
+  },
+  {
+    "id": 10,
+    "flowerName": "Beyaz Phalaenopsis ",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at3484-1/L/3-dal-beyaz-phalaenopsis-orkide-at3484-1-8d4995057ad4fdb-45be738a.jpg"
+  },
+  {
+    "id": 11,
+    "flowerName": "The Winds of Love",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat237-1/L/vbat237-1-8d887ee73957a3a-de4d1eb8.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 2,
+    "flowerName": "Schefflera (Şeflera) Bitkisi",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/at965-1/L/schefflera-at965-1-4.jpg"
+  },
+  {
+    "id": 12,
+    "flowerName": "ViaBonte",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat156-1/L/tropical-beauty-vbat156-1-a3b657aea99f49a1b7061256fa2dbb1c.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 13,
+    "flowerName": "Cradle Of Love",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat260-1/L/vbat260-1-8d8ea0aeac9c2bb-c3b72724.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 7,
+    "flowerName": "Seramikte Antoryum",
+    "type": "saksi",
+    "image": "https://cdn03.ciceksepeti.com/cicek/kc3716183-1/L/seramikte-antoryum-anthurium-tasarimi-kc3716183-1-68c0afbd3f1f4dceb53da74a3a0e393e.jpg"
+  },
+  {
+    "id": 14,
+    "flowerName": "Love of My Dreams",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat101-1/L/flower-letter-for-darling-vbat101-1-8d73381957bf4cfa9ce02661437cc468.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 15,
+    "flowerName": "Happy Buds Box",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat236-1/L/vbat236-1-8d887ee6a4c28e8-b22f7f16.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 16,
+    "flowerName": "Dreams Come True Baby Basket",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat108-1/L/magical-beauty-flower-box-vbat108-1-0ef8a8688f0d45b783b1d00bf94167ca.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 17,
+    "flowerName": "Fun and Eye-catching",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat212-1/L/vbat212-1-8d887ec248da2c8-5453b5f3.jpg",
+    "type": "cardak"
+  },
+  {
+    "id": 19,
+    "flowerName": "Colorful and Vivid Flower Arrangement",
+    "image": "https://cdn03.ciceksepeti.com/cicek/vbat149-1/L/dance-of-beauty-vbat149-1-5aa31bfb45214e51b12d6933ebb8302f.jpg",
+    "type": "cardak"
+  }
+]

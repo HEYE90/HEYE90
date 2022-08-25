@@ -1,0 +1,18 @@
+footer .bottom-foteer {
+background-color: var(--main-bg-color);
+padding: 15px 0px;
+}
+
+footer .bottom-foteer .Copyright .Copyright-text {
+    text-align: center;
+}
+footer .bottom-foteer .Copyright .Copyright-text a{
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+footer .bottom-foteer .Copyright .Copyright-text .hight-line {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 200;
+}

@@ -1,0 +1,77 @@
+.sideBar {
+    position: relative;
+    flex-basis: 31%;
+    transition: transform 0.4s ease;
+}
+
+.sideBar.sidebarClose{
+    width: 350px;
+    position: absolute;
+    z-index: 999;
+    transform: translateX(-95%);
+    transition: transform 0.4s ease;
+
+}
+
+.sideBar .trigger .collapseIcon {
+    cursor: pointer;
+    transition: all 0.4s;
+    padding: 5px;
+    position: absolute;
+    right: -19px;
+    top: 11px;
+    z-index: 2;
+    border: 1px solid var(--main-active-bgcolor);
+}
+
+.sideBar .trigger .collapseIcon svg {
+    width: 24px;
+    fill: var(--main-color);
+}
+
+.sideBar .trigger .collapseIcon:hover {
+    background-color: var(--main-active-bgcolor);
+    border: 1px solid var(--main-bg-color);
+}
+
+.sideBar .trigger .collapseIcon:hover svg {
+    fill: var(--text-color);
+}
+
+@media screen and (max-width : 992px) {
+    .sideBar {
+        position: relative;
+        width: 25%;
+        height: 100%;
+    }
+
+    .sideBar .trigger.sidebarOpen {
+        position: absolute;
+        transform: translateX(0px);
+        left: 0px;
+        transition: transform 0.4s ease;
+    }
+
+    .sideBar .trigger.sidebarClose {
+        position: absolute;
+        transform: translateX(-3%);
+        transition: transform 0.4s ease;
+    }
+
+    .sideBar .trigger .collapseIcon {
+        padding: 4px;
+        right: -16px;
+        top: 11px;
+    }
+
+    .sideBar .trigger .collapseIcon svg {
+        width: 14px;
+        fill: var(--main-color);
+    }
+}
+
+@media screen and (max-width : 670px) {
+    .sideBar .trigger .collapseIcon {
+        display: none;
+    }
+}

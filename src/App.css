@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --text-color: #333333;
+    --main-color: #706161;
+    --main-bg-color: #9db39b;
+    --main-active-bgcolor:#c6dbc0;
+    --main-transform: 0.4s;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #d5d3d34d;
+}
+main.main{
+    display: flex;
+    align-items: flex-start;
+}
+
+@media screen and (max-width : 670px) {
+    main.main{
+        display: block;
+    }
+}

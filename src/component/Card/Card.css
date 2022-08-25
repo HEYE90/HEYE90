@@ -1,0 +1,156 @@
+.mainCard {
+    flex-basis: 100%;
+}
+
+.mainCard .cardImage {}
+
+.mainCard .cardImage ul.cardItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    transition: all 5.4s ease;
+
+}
+
+.mainCard .cardImage ul.cardItems a.cardLink {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem {
+    margin: 10px 0px;
+    border: 1px solid var(--main-bg-color);
+    box-shadow: 1px 1px 5px #979797;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardItemLink {
+    text-decoration: none;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem:hover {
+    box-shadow: 1px 1px 5px #403f3f;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop .layout {
+    background-color: #ffffff73;
+    padding: 15px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 5;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem:hover .cardTop .layout {
+    opacity: 1;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout h1 {
+    color: #0a2348;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0px 50px;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout h1 span.date {
+    color: #d71e1e;
+    font-weight: normal;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout div {
+    display: flex;
+    align-items: baseline;
+    margin: 8px 0px;
+    line-height: 1.9;
+    letter-spacing: 0.2px;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout .text {
+    color: black;
+    width: 90px;
+    font-weight: 600;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout span.detay {
+    color: black;
+
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout span.detay span.star {
+    font-size: 24px;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout span.detay span.rating {
+    color: #ffd603;
+    font-weight: 900;
+    font-size: 18px;
+    text-shadow: 1px 2px 3px #22366e;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop div.layout span.detay.date {
+    color: #0d0d9d;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px #c9ddfb;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardTop img {
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 5px #333333;
+    transition: transform 0.4s;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem:hover .cardTop img {
+    transform: rotate(3deg) scale(1.1);
+    box-shadow: 0px 0px 10px #333333;
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardBotton {
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem .cardBotton p {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+/* Empty card section  */
+main.main .emptyCard {
+    text-align: center;
+    margin: 50px auto;
+    line-height: 3;
+}
+
+main.main .emptyCard .emptyText {
+    font-size: 20px;
+}
+
+main.main .emptyCard .returnText {
+    font-size: 24px;
+    font-weight: 700;
+    color: #198745;
+}
+
+@media screen and (max-width : 670px) {
+    .mainCard {
+        flex-basis: auto;
+    }
+}
